@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg-color: #cac9c99c;
+    --second-bg-color: #F5F5F5;
+    --color-main: #0ef;
+}
+
+  body {
+    background-color: var(--second-bg-color);
+  }
+
+.row {
+    margin-top: 7%;
+}
+
+  h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+  }
+  h1 span {
+    color: #5E5E5E;
+    font-family: 'Montserrat';
+  }
+  .navbar-brand span {
+    color: var(--color-main);
+    font-size: 130%;
+    font-weight: bold;
+    font-family: 'Montserrat';
+  }
+  a.navbar-brand {
+    font-size: medium;
+    font-family: 'Montserrat';
+  }
+ .offcanvas-body button {
+    position: absolute;
+    bottom: 15px;
+    width: 98%;
+    right: 10px;
+    font-weight: bold;
+    left: 5px;
+    text-align: center;
+    background-color: #EA3939;
+    border-color: black;
+    border-radius: 15px;
+ }
+  
+  .offcanvas-body button a{
+      color: white;
+      text-decoration: none;
+  }
+.card .d-flex{
+      width: 30%;
+      justify-content: flex-end; 
+}
+  
+.card {
+      display: flex;
+      justify-content: flex-end;
+    
+  }
+  
+  .card table {
+      margin-left: 1px;
+      margin-right: 1px;
+  }
+  

@@ -1,0 +1,14 @@
+.style-logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.style-sub{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.style-btn{
+    --bs-btn-bg: red;
+    
+}
