@@ -1,6 +1,5 @@
 <?php
 require("config.php");
-//ngentot
 $query = "SELECT * FROM tbl_crud";
 $result = mysqli_query($conn, $query);
 $no = 1;
